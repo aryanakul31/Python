@@ -61,19 +61,19 @@ def sendMail(to):
     Placement Coordinator<br>
     University Institute Of Engineering & Technology<br>
     Panjab University SSG Regional Centre, Hoshiarpur<br>
-    M.No.: (+91-9501866990)<br>
+    M.No.: (+91-********)<br>
     Campus Website- <a href="http://ssgpurch.puchd.ac.in">http://ssgpurch.puchd.ac.in</a>
     <br><br>
     Nakul Arya<br>
     Student Coordinator<br>
     Training and Placement Cell<br>
-    (+91-8872203232)<br>
+    (+91-**************)<br>
             </p>
         </body>
     </html>"""
     sender_email = "nakularya99@gmail.com"
     receiver_email = to
-    password = "8872203232@Nakul"
+    password = "********"
 
     # Create a multipart message and set headers
     message = MIMEMultipart()
@@ -116,12 +116,6 @@ def sendMail(to):
         except Exception as e:
             print(e)
 
-
-# sendMail("panchali.bharali@dreamorbit.com")
-# sendMail("recruitment@alphacom.in")
-# sendMail("chinmay.k@darwinbox.in")
-# sendMail("ashritha.r@darwinbox.in")
-# sendMail("careers@healthasyst.freshteam.com")
 
 count = 1449
 wb = load_workbook(filename='HRS.xlsx')
