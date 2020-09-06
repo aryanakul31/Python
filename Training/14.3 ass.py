@@ -1,0 +1,7 @@
+frfr=open("a.txt")
+print(frfr)
+print("name of file",frfr.name)
+print("mode of file",frfr.mode)
+print("endocing of file",frfr.encoding)
+frfr.close()
+print("closed?",frfr.closed)
